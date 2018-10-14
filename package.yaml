@@ -1,0 +1,60 @@
+name:                find
+version:             0.1.0.0
+github:              "chenyulue/find"
+license:             BSD3
+author:              "Zhenyu Lu"
+maintainer:          "chenyulue@163.com"
+copyright:           "(C) Zhenyu Lu, 2018"
+
+extra-source-files:
+- README.md
+- ChangeLog.md
+- warning.dat
+- help.dat
+
+# Metadata used when publishing your package
+# synopsis:            Short description of your package
+# category:            Web
+
+# To avoid duplicated efforts in documentation and dealing with the
+# complications of embedding Haddock markup inside cabal files, it is
+# common to point users to the README.md file.
+description:         Please see the README on GitHub at <https://github.com/chenyulue/find#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+- attoparsec
+- text
+- gtk 
+
+library:
+  source-dirs: src
+  exposed-modules: Text.ParseFig
+                 , Text.Warning
+                 , Text.DealWith
+                 , GUI
+                 , Data.SensitiveWords
+  other-modules: []
+
+executables:
+  find-exe:
+    main:                Main.hs
+    source-dirs:         app
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    - -optl-mwindows
+    dependencies:
+    - find
+
+tests:
+  find-test:
+    main:                Spec.hs
+    source-dirs:         test
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - find

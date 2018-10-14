@@ -1,0 +1,72 @@
+
+c:/Users/chenyulue/Documents/Haskell/find-v1/test\Spec.hs,15
+main main0,1
+
+c:/Users/chenyulue/Documents/Haskell/find-v1/src\Text\Warning.hs,92
+module Text.Warning Text.Warning2,3
+warning warning12,13
+allWarnings allWarnings15,16
+
+c:/Users/chenyulue/Documents/Haskell/find-v1/src\Text\ParseFig.hs,422
+module Text.ParseFig Text.ParseFig3,4
+isFigChar,isOnlyAlpha isOnlyAlpha21,22
+isFigChar,isFigChar21,22
+isOnlyAlpha isOnlyAlpha23,24
+alphaNum alphaNum25,26
+parenFig parenFig29,30
+openParen, closeParen closeParen34,35
+openParen,openParen34,35
+closeParen closeParen36,37
+hyphenFig hyphenFig39,40
+hyphen hyphen46,47
+figNo figNo50,51
+(<(<**>)57,58
+manyFigs manyFigs61,62
+figNumbers figNumbers64,65
+
+c:/Users/chenyulue/Documents/Haskell/find-v1/src\Text\DealWith.hs,227
+module Text.DealWith Text.DealWith2,3
+dealWith dealWith13,14
+type DespTxt DespTxt20,21
+type FigsTxt FigsTxt21,22
+(<(<??>)24,25
+desp desp25,26
+output output43,44
+delSort delSort50,51
+splitAndOr splitAndOr53,54
+
+c:/Users/chenyulue/Documents/Haskell/find-v1/src\GUI.hs,351
+module GUI GUI3,4
+database database17,18
+helpDocPath helpDocPath19,20
+gui gui22,23
+compareAndFind compareAndFind43,44
+highlight highlight83,84
+textViewGetValue textViewGetValue96,97
+helpDialog helpDialog103,104
+aboutDialog aboutDialog119,120
+addDialog addDialog126,127
+showResult showResult149,150
+selectFile selectFile156,157
+
+c:/Users/chenyulue/Documents/Haskell/find-v1/src\Data\SensitiveWords.hs,170
+module Data.SensitiveWords Data.SensitiveWords3,4
+addFromFile addFromFile11,12
+addOneWord addOneWord34,35
+searchWord searchWord45,46
+deleteWord deleteWord55,56
+
+c:/Users/chenyulue/Documents/Haskell/find-v1/Setup.hs,15
+main main1,2
+
+c:/Users/chenyulue/Documents/Haskell/find-v1/backup\Main.hs,95
+module Main Main1,2
+main main11,12
+getResult getResult20,21
+figAndWarn figAndWarn26,27
+
+c:/Users/chenyulue/Documents/Haskell/find-v1/app\Main.hs,95
+module Main Main0,1
+main main12,13
+getResult getResult19,20
+figAndWarn figAndWarn25,26
